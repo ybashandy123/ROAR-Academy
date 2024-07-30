@@ -4,7 +4,10 @@
 ##
 ## (c) Copyright 2020. Intelligent Racing Inc. Not permitted for commercial use
 
-# Please make sure to conda install -c conda-forge keras
+# Please make sure to install tensorflow and keras modules by running pip commands:
+# python -m pip install --upgrade pip
+# python -m pip install tensorflow==2.10
+
 import keras
 from keras.models import Sequential
 from keras.layers import Dense
