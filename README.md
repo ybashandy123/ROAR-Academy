@@ -30,10 +30,10 @@ For the DNN portion, we use tensorflow 2 and keras. The installation shall refer
 
 **If your PC comes with supported NVidia GPU for accelerating DNN code, please follow carefully the setup of GPU support for Linux and Windows. For MacOS, please read the instruction at the end**
 
-After you have setup your system for an installation on either CPU or GPU, run the following pip script to install tensorflow 2.15
+After you have setup your system for an installation on either CPU or GPU, run the following pip script to install tensorflow 2.12
 ~~~
     python -m pip install --upgrade pip
-    python -m pip install tensorflow==2.15
+    python -m pip install tensorflow==2.12
 ~~~
 
 Finally, you may verify tensorflow has been properly set up by running the following test
@@ -48,7 +48,7 @@ If you have install tensorflow with GPU support, you may verify by running the f
 
 ## Tensorflow Installation with Metal accelerated backend for MacOS
 
-Apple has released a Metal-accelerated tensorflow backend to utilize the GPU on MacOS. Please visit Apple website to install tensorflow 2.15: <https://developer.apple.com/metal/tensorflow-plugin/>
+Apple has released a Metal-accelerated tensorflow backend to utilize the GPU on MacOS. Please visit Apple website to install tensorflow 2.12: <https://developer.apple.com/metal/tensorflow-plugin/>
 
 ## Installation of Reinforcement Learning Modules
 
